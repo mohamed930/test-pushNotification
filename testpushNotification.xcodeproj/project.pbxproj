@@ -14,7 +14,7 @@
 		D308BA902B8F2FFE000ED793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308BA8E2B8F2FFE000ED793 /* Main.storyboard */; };
 		D308BA922B8F2FFF000ED793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D308BA912B8F2FFF000ED793 /* Assets.xcassets */; };
 		D308BA952B8F2FFF000ED793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308BA932B8F2FFF000ED793 /* LaunchScreen.storyboard */; };
-		D308BAA12B8F3288000ED793 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D308BAA02B8F3288000ED793 /* GoogleService-Info.plist */; };
+		D308BAA42B8F5646000ED793 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D308BAA32B8F5646000ED793 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		D308BA912B8F2FFF000ED793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D308BA942B8F2FFF000ED793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D308BA962B8F2FFF000ED793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D308BAA02B8F3288000ED793 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D308BAA22B8F4588000ED793 /* testpushNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testpushNotification.entitlements; sourceTree = "<group>"; };
+		D308BAA32B8F5646000ED793 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D608D0B16824A40D2B5DBEA2 /* Pods_testpushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testpushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,7 +112,7 @@
 		D308BA9F2B8F3033000ED793 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				D308BAA02B8F3288000ED793 /* GoogleService-Info.plist */,
+				D308BAA32B8F5646000ED793 /* GoogleService-Info.plist */,
 				D308BA912B8F2FFF000ED793 /* Assets.xcassets */,
 				D308BA962B8F2FFF000ED793 /* Info.plist */,
 			);
@@ -189,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D308BA952B8F2FFF000ED793 /* LaunchScreen.storyboard in Resources */,
-				D308BAA12B8F3288000ED793 /* GoogleService-Info.plist in Resources */,
+				D308BAA42B8F5646000ED793 /* GoogleService-Info.plist in Resources */,
 				D308BA922B8F2FFF000ED793 /* Assets.xcassets in Resources */,
 				D308BA902B8F2FFE000ED793 /* Main.storyboard in Resources */,
 			);
