@@ -30,6 +30,8 @@
 		D308BA962B8F2FFF000ED793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D308BAA22B8F4588000ED793 /* testpushNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testpushNotification.entitlements; sourceTree = "<group>"; };
 		D308BAA32B8F5646000ED793 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D308BAA62B8F5C0C000ED793 /* Certificates_dev.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates_dev.p12; sourceTree = "<group>"; };
+		D308BAA72B8F5C0C000ED793 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
 		D608D0B16824A40D2B5DBEA2 /* Pods_testpushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testpushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,11 +114,21 @@
 		D308BA9F2B8F3033000ED793 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				D308BAA52B8F5C0C000ED793 /* certificates */,
 				D308BAA32B8F5646000ED793 /* GoogleService-Info.plist */,
 				D308BA912B8F2FFF000ED793 /* Assets.xcassets */,
 				D308BA962B8F2FFF000ED793 /* Info.plist */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		D308BAA52B8F5C0C000ED793 /* certificates */ = {
+			isa = PBXGroup;
+			children = (
+				D308BAA62B8F5C0C000ED793 /* Certificates_dev.p12 */,
+				D308BAA72B8F5C0C000ED793 /* Certificates.p12 */,
+			);
+			path = certificates;
 			sourceTree = "<group>";
 		};
 		EF23FB7D5D9F59E51F7945AD /* Pods */ = {
