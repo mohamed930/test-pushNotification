@@ -56,15 +56,47 @@
 		D308BA872B8F2FFE000ED793 /* testpushNotification */ = {
 			isa = PBXGroup;
 			children = (
-				D308BA882B8F2FFE000ED793 /* AppDelegate.swift */,
-				D308BA8A2B8F2FFE000ED793 /* SceneDelegate.swift */,
-				D308BA8C2B8F2FFE000ED793 /* ViewController.swift */,
-				D308BA8E2B8F2FFE000ED793 /* Main.storyboard */,
-				D308BA912B8F2FFF000ED793 /* Assets.xcassets */,
-				D308BA932B8F2FFF000ED793 /* LaunchScreen.storyboard */,
-				D308BA962B8F2FFF000ED793 /* Info.plist */,
+				D308BA9C2B8F3019000ED793 /* AppDelegate */,
+				D308BA9E2B8F3025000ED793 /* Launch screen */,
+				D308BA9D2B8F301F000ED793 /* Views */,
+				D308BA9F2B8F3033000ED793 /* Assets */,
 			);
 			path = testpushNotification;
+			sourceTree = "<group>";
+		};
+		D308BA9C2B8F3019000ED793 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D308BA882B8F2FFE000ED793 /* AppDelegate.swift */,
+				D308BA8A2B8F2FFE000ED793 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D308BA9D2B8F301F000ED793 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D308BA8C2B8F2FFE000ED793 /* ViewController.swift */,
+				D308BA8E2B8F2FFE000ED793 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D308BA9E2B8F3025000ED793 /* Launch screen */ = {
+			isa = PBXGroup;
+			children = (
+				D308BA932B8F2FFF000ED793 /* LaunchScreen.storyboard */,
+			);
+			path = "Launch screen";
+			sourceTree = "<group>";
+		};
+		D308BA9F2B8F3033000ED793 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D308BA912B8F2FFF000ED793 /* Assets.xcassets */,
+				D308BA962B8F2FFF000ED793 /* Info.plist */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,12 +326,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X4YZSY77G5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testpushNotification/Info.plist;
+				INFOPLIST_FILE = testpushNotification/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +340,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization199.testpushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +359,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X4YZSY77G5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = testpushNotification/Info.plist;
+				INFOPLIST_FILE = testpushNotification/Assets/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +373,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.myorganization199.testpushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
