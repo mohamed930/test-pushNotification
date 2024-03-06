@@ -71,8 +71,8 @@ extension AppDelegate: MessagingDelegate, UNUserNotificationCenterDelegate {
         
         guard let responded = parseNotification(userInfo: userInfo) else { return }
         
-        print(responded.visitType)
-        print(responded.time)
+        print(responded.visitId)
+        print(responded.notificationType)
         
         completionHandler()
     }

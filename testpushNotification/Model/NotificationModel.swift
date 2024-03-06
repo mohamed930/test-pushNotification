@@ -8,11 +8,11 @@
 import Foundation
 
 struct NotificationData: Codable {
-    let visitType: String
-    let time: String
+    let notificationType: String
+    let visitId: String
 
     enum CodingKeys: String, CodingKey {
-        case visitType = "visit_type" 
-        case time
+        case visitId = "visit_id"
+        case notificationType = "notification_type"
     }
 }
