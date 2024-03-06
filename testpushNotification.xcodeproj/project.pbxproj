@@ -15,6 +15,7 @@
 		D308BA922B8F2FFF000ED793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D308BA912B8F2FFF000ED793 /* Assets.xcassets */; };
 		D308BA952B8F2FFF000ED793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D308BA932B8F2FFF000ED793 /* LaunchScreen.storyboard */; };
 		D308BAA42B8F5646000ED793 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D308BAA32B8F5646000ED793 /* GoogleService-Info.plist */; };
+		D3BD94202B98BFA20024C703 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BD941F2B98BFA20024C703 /* NotificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D308BAA32B8F5646000ED793 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D308BAA62B8F5C0C000ED793 /* Certificates_dev.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates_dev.p12; sourceTree = "<group>"; };
 		D308BAA72B8F5C0C000ED793 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
+		D3BD941F2B98BFA20024C703 /* NotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		D608D0B16824A40D2B5DBEA2 /* Pods_testpushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testpushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 			children = (
 				D308BAA22B8F4588000ED793 /* testpushNotification.entitlements */,
 				D308BA9C2B8F3019000ED793 /* AppDelegate */,
+				D3BD94212B98CEBF0024C703 /* Model */,
 				D308BA9E2B8F3025000ED793 /* Launch screen */,
 				D308BA9D2B8F301F000ED793 /* Views */,
 				D308BA9F2B8F3033000ED793 /* Assets */,
@@ -129,6 +132,14 @@
 				D308BAA72B8F5C0C000ED793 /* Certificates.p12 */,
 			);
 			path = certificates;
+			sourceTree = "<group>";
+		};
+		D3BD94212B98CEBF0024C703 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3BD941F2B98BFA20024C703 /* NotificationModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		EF23FB7D5D9F59E51F7945AD /* Pods */ = {
@@ -258,6 +269,7 @@
 			files = (
 				D308BA8D2B8F2FFE000ED793 /* ViewController.swift in Sources */,
 				D308BA892B8F2FFE000ED793 /* AppDelegate.swift in Sources */,
+				D3BD94202B98BFA20024C703 /* NotificationModel.swift in Sources */,
 				D308BA8B2B8F2FFE000ED793 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

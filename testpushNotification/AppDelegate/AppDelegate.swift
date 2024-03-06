@@ -48,4 +48,32 @@ extension AppDelegate: MessagingDelegate, UNUserNotificationCenterDelegate {
             }
         }
     }
+    
+    func parseNotification(userInfo: [AnyHashable: Any]) -> NotificationData? {
+        do {
+            let jsonData = try JSONSerialization.data(withJSONObject: userInfo, options: [])
+            let decoder = JSONDecoder()
+            let notificationData = try decoder.decode(NotificationData.self, from: jsonData)
+            return notificationData
+        } catch {
+            print("Error parsing notification data: \(error)")
+            return nil
+        }
+    }
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        print("userNotificationCenter")
+        // Add any custom push handling for your own app here
+        let userInfo = response.notification.request.content.userInfo
+        
+        print(userInfo)
+        print("----------------------------")
+        
+        guard let responded = parseNotification(userInfo: userInfo) else { return }
+        
+        print(responded.visitType)
+        print(responded.time)
+        
+        completionHandler()
+    }
 }
